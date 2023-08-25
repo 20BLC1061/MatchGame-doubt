@@ -55,19 +55,21 @@ span {
   width: 25%;
   list-style-type: none;
 }
-.active {
-  background-color: #fec653;
-  border-bottom: 2px solid #fec653;
-}
 .navigation-option {
   color: #ffffff;
   font-family: 'Roboto';
   font-size: 24px;
   font-weight: bold;
   background-color: transparent;
-  border: 0;
   cursor: pointer;
   outline: none;
+  border: 0;
+}
+
+.active {
+  color: #fec653;
+  border-bottom: solid;
+  border-bottom-color: #fec653;
 }
 .thumbnails {
   width: 50%;
